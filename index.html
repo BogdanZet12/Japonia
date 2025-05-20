@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>Descoperă Japonia</title>
+  <style>
+    body {
+      background-image: url('japan-background.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    marquee {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    nav {
+      margin: 20px;
+    }
+    nav a {
+      color: red;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px red;
+    }
+    h1, h2 {
+      color: red;
+    }
+    p, li {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+      border: 3px solid white;
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: rgba(255, 0, 0, 0.9);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -110px;
+      opacity: 0;
+      transition: opacity 0.4s;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+    video, audio {
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 2px solid white;
+    }
+    .quiz-section {
+      margin-top: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid red;
+    }
+    .quiz-question {
+      margin-bottom: 30px;
+    }
+    .quiz-section button {
+      padding: 8px 16px;
+      font-size: 16px;
+      margin: 6px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: red;
+      color: white;
+    }
+    .quiz-result {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <marquee>🇯🇵 Bine ai venit în Țara Soarelui Răsare – Japonia! 🇯🇵</marquee>
+
+  <nav>
+    <a href="index.html">Acasă</a>
+    <a href="cultura.html">Cultura Japoneză</a>
+    <a href="mancare.html">Mâncarea Japoneză</a>
+    <a href="https://www.japan.travel/en/" target="_blank">Turism Japonia</a>
+  </nav>
+
+  <div class="content">
+    <h1>Despre Japonia</h1>
+    <p><strong>Japonia</strong> este o națiune insulară situată în Asia de Est, în Oceanul Pacific. Este formată din patru insule principale – Honshu, Hokkaido, Kyushu și Shikoku – și mii de alte insule mai mici. Este cunoscută pentru combinația unică dintre tradiție și modernitate, temple străvechi și tehnologie futuristă, festivaluri culturale și metropole aglomerate.</p>
+
+    <h2>Istorie</h2>
+    <p>Japonia are o istorie ce datează de mii de ani. Conform legendelor, țara a fost fondată în anul 660 î.Hr. de către împăratul Jimmu. În perioada medievală, Japonia era condusă de <strong>samurai</strong> și shoguni, într-un sistem feudal. În secolul XIX, sub conducerea împăratului Meiji, Japonia a trecut printr-o transformare spectaculoasă, devenind o putere industrială.</p>
+
+    <h2>Geografie</h2>
+    <p>Japonia este un arhipelag vulcanic, motiv pentru care este predispusă la cutremure și are peste 100 de vulcani activi. Cel mai faimos dintre aceștia este <strong>Muntele Fuji</strong>, un simbol național și atracție turistică majoră.</p>
+
+    <div class="tooltip">
+      <img src="fuji.jpg" alt="Muntele Fuji" />
+      <div class="tooltiptext">Muntele Fuji este cel mai înalt vârf din Japonia!</div>
+    </div>
+
+    <h2>Economie și Tehnologie</h2>
+    <p>Japonia este a treia cea mai mare economie a lumii. Este cunoscută pentru companii precum Toyota, Sony, Honda și Nintendo. Este lider în inovație și robotică, dar în același timp păstrează o legătură puternică cu tradițiile.</p>
+
+    <h2>Cultură și Obiceiuri</h2>
+    <ul>
+      <li>Respectul este esențial – oamenii se înclină în semn de salut.</li>
+      <li>Alimentele tradiționale includ sushi, ramen și tempura.</li>
+      <li>Festivalurile (matsuri) au loc pe tot parcursul anului.</li>
+      <li>Arta japoneză include manga, anime, ikebana (aranjamente florale) și ceremonia ceaiului.</li>
+    </ul>
+
+    <h2>Curiozități</h2>
+    <ul>
+      <li>Japonia are una dintre cele mai mari speranțe de viață din lume.</li>
+      <li>Există automate care vând aproape orice, de la supe calde la flori.</li>
+      <li>Are un sistem feroviar extrem de precis – trenurile întârzie rar mai mult de câteva secunde.</li>
+      <li>Are peste 5 milioane de aparate de vending distribuite în toată țara.</li>
+    </ul>
+
+    <h2>Video - Japonia în imagini</h2>
+    <video width="700" controls>
+      <source src="japan-video.mp4" type="video/mp4" />
+    </video>
+
+    <h2>Experiența audio a pietonilor în Japonia</h2>
+    <audio controls>
+      <source src="sunet.mp3" type="audio/mpeg" />
+    </audio>
+    <h2>📺 Informații interesante despre Japonia</h2>
+    <p>Urmărește acest video pentru a descoperi curiozități, tradiții și aspecte mai puțin cunoscute despre cultura japoneză:</p>
+
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/URDXZSJZ2ME" 
+            title="YouTube video player" frameborder="0" allowfullscreen 
+            style="border-radius: 10px; border: 2px solid white; margin-top: 20px;">
+    </iframe>
+
+    <div class="quiz-section">
+      <h2>🎌 Quiz: Cât de bine cunoști Japonia?</h2>
+
+      <div class="quiz-question">
+        <p>1. Care este capitala Japoniei?</p>
+        <button onclick="check('q1','tokyo')">Tokyo</button>
+        <button onclick="check('q1','kyoto')">Kyoto</button>
+        <button onclick="check('q1','osaka')">Osaka</button>
+        <p class="quiz-result" id="q1"></p>
+      </div>
+
+      <div class="quiz-question">
+        <p>2. Ce înseamnă cuvântul „samurai”?</p>
+        <button onclick="check('q2','razboinic')">Războinic</button>
+        <button onclick="check('q2','preot')">Preot</button>
+        <button onclick="check('q2','artist')">Artist</button>
+        <p class="quiz-result" id="q2"></p>
+      </div>
+
+      <div class="quiz-question">
+        <p>3. Cum se numește costumul tradițional japonez?</p>
+        <button onclick="check('q3','kimono')">Kimono</button>
+        <button onclick="check('q3','hanbok')">Hanbok</button>
+        <button onclick="check('q3','hijab')">Hijab</button>
+        <p class="quiz-result" id="q3"></p>
+      </div>
+
+      <div class="quiz-question">
+        <p>4. Ce floare este simbol al Japoniei?</p>
+        <button onclick="check('q4','cires')">Floarea de cireș</button>
+        <button onclick="check('q4','trandafir')">Trandafir</button>
+        <button onclick="check('q4','crin')">Crin</button>
+        <p class="quiz-result" id="q4"></p>
+      </div>
+
+      <div class="quiz-question">
+        <p>5. Ce este „ikigai”?</p>
+        <button onclick="check('q5','sens')">Un concept japonez despre sensul vieții</button>
+        <button onclick="check('q5','dans')">Un dans tradițional</button>
+        <button onclick="check('q5','fel de mancare')">Un fel de mâncare</button>
+        <p class="quiz-result" id="q5"></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function check(id, answer) {
+      const correct = {
+        q1: 'tokyo',
+        q2: 'razboinic',
+        q3: 'kimono',
+        q4: 'cires',
+        q5: 'sens'
+      };
+      const res = document.getElementById(id);
+      if (answer === correct[id]) {
+        res.innerHTML = "✅ Corect!";
+        res.style.color = "lightgreen";
+      } else {
+        res.innerHTML = "❌ Greșit.";
+        res.style.color = "orange";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.mochi-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px #000;
+}
+
+.mochi-card img {
+  flex: 1 1 300px;
+  max-width: 300px;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.mochi-card .mochi-text {
+  flex: 2 1 400px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.red-title {
+  color: red;
+}
